@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="RegressionTest"  verbose="1">
+
+
+  <test name="Amazon Test">
+      <parameter name="browser" value="chrome"/>
+      
+      <classes>
+      <class name="testNGsessions.AmazonTest"/>
+      </classes>     
+      
+  </test>   
+  
+    
+  <test name="Google Test">    
+       <classes>
+       <class name="testNGsessions.GoogleTest"/>
+    </classes>     
+  </test>
+  
+  <!-- <test name="REdiffMail Test">    
+       <classes>
+       <class name="testNGsessions.RediffmailTest"/>
+    </classes>     
+  </test>
+   -->
+  
+</suite>
